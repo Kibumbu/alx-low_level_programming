@@ -5,7 +5,8 @@
 /**
  * main -> assign a random number to the variable n with the if functions
  * based condition
- * Return : Always (0)
+ *
+ * Return: Always (0)
  */
 int main(void)
 {
