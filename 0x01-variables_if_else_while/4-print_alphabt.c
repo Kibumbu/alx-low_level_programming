@@ -12,13 +12,14 @@ int main(void)
 {
 	char ch;
 
-	for (ch  ;97 ch <= 122; ch++;)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch != 113 && ch != 101)
+		if (ch != 'q' && ch != 'e')
 		{
 		putchar(ch);
 		}
 	}
+
 	putchar(10); /*this is a ascii code for new line*/
 
 	return (0);
