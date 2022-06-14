@@ -3,8 +3,8 @@
 /**
  * prints the alphabet in lowercase, and then in uppercase
  * You can only use the putchar function
- * putchar (10)
- * Return : always (0)
+ * 
+ * Return: always (0)
  */
 int main(void)
 {
