@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
-* main prints the size of various types
-* return 0 if exited properly, non-zero otherwise
+* main -> prints the size of various types
+* You should produce the exact same output as in the example
+* Warnings are allowed
+* Your program should return 0
+* Return: always 0
 */
 int main(void)
 {
