@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * prints the alphabet in lowercase, and then in uppercase
+ * main -> assign a random prints the alphabet in lowercase
  * You can only use the putchar function
- * putchar(10) 
- * Return: always (0)
+ * All your code should be in the main function
+ * You can only use putchar three times in your code
+ * Return: always 0
  */
 int main(void)
 {
