@@ -1,20 +1,14 @@
-#include "main.h";
+#include <stdio.h>
+#include "main.h"
 
-/** main - prints putchar
- * return : always 0
+/**
+ * main -> prints putchar
+ * Return: always (0)
  */
-int main(void)
-{
-	_putchar("-");
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+int main(void)	
+	putchar(char = "_putchar\n");
+
+	putchar(ch);
 
 	return (0);
-
 }
