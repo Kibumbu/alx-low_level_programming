@@ -5,7 +5,7 @@
  * Numbers must be separated by ,, followed by a space
  * The two digits must be different
  * 01 and 10 are considered the same combination of the two digits 0 and 1
- * Return: always 0
+ * Return: always (0)
  */
 int main(void)
 {
@@ -28,7 +28,6 @@ int main(void)
 			}
 		}
 	}
-
 	putchar(10); /*this is an ascii code for new line*/
 
 	return (0);
