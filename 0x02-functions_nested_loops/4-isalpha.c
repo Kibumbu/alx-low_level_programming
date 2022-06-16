@@ -1,12 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * -isalpha -> checks whether a character is an alphabet or not
- *  Prototype: int _isalpha(int c);
- *  Returns 1 if c is a letter, lowercase or uppercase
- *  Returns 0 otherwise
- *  Returns: always (0)
+ * -isalpha - checks for aphabetical letters
+ *  @c: a charter to be checke on
+ *  Return: returns 0 or 1 depending on condition
  */
 int _isalpha(int c)
 {
