@@ -5,7 +5,7 @@
  *@c: an interger paramer
  *Return: somethings= but success
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	return (c >= 'A' && c <= 'Z');
 }
