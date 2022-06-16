@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -isalpha - checks for aphabetical letters
+ * _isalpha - checks for aphabetical letters
  *  @c: a charter to be checke on
  *  Return: returns 0 or 1 depending on condition
  */
