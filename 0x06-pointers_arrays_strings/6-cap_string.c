@@ -15,11 +15,11 @@ char *cap_string(char *X)
 	{
 		i = 0;
 
-		while (1 < len)
+		while (len > 1)
 		{
-			if ((a == 0 || X[a - 1] == spc[i]) && (x[a]& >= 97 && x[a] <= 122))
+			if ((a == 0 || X[a - 1] == spc[i]) && (x[a] & >= 97  && x[a] <= 122))
 				x[a] = x[a] - 32;
-			i++;
+				i++;
 		}
 		a++;
 	}
