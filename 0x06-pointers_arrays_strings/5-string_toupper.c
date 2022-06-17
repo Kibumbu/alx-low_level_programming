@@ -2,7 +2,7 @@
 
 /**
  * string_toupper -> converting any string to upper case
- * @x: string param
+ * changes all lowercase letters of a string to uppercase.
  * Return: string
  */
 char *string_toupper(char *)
@@ -12,7 +12,7 @@ char *string_toupper(char *)
 	while (x[i])
 	{
 		if (x[i] >= 97 && x[i] <= 122)
-		x[i] = x[i] - 32;
+			x[i] = x[i] - 32;
 		i++;
 	}
 	return (x);
