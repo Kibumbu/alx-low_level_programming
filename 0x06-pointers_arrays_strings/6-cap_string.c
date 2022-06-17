@@ -1,11 +1,12 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * cap_string -> capitalisation function
- * @X: string param
+ * @x: string param
  * Return: capitalized version of string
  */
-char *cap_string(char *X)
+char *cap_string(char *x)
 {
 	char spc[] = {32, 9, '\n', ',', ';', '.', '?', '"', '(', ')', '{', '}'};
 	int len = 13;
@@ -23,5 +24,5 @@ char *cap_string(char *X)
 		}
 		a++;
 	}
-	return (X);
+	return (x);
 }
