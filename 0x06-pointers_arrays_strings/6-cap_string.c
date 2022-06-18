@@ -1,28 +1,37 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * cap_string -> capitalisation function
- * @x: string param
- * Return: capitalized version of string
+ * cap_string -> capitalized the word of a string function
+ * @s: string
+ * Return: s
  */
-char *cap_string(char *x)
+char *cap_string(char *s)
 {
-	char spc[] = {32, 9, ',', ';', '.', '?', '"', '(', ')', '{', '}', '\n'};
-	int len = 13;
-	int a = 0, i;
+	int x, y;
+	int trigger;
+	char nots[] = ",;.!?(){}\nt\"";
 
-	while (X[a])
+	for (x = 0, trigger = 0; s[x] != '\0'; x++)
 	{
-		i = 0;
-
-		while (len > 1)
+		if (s[0] > 96 && s[0] < 123)
+			trigger = 1;
+		for (y = 0; nots[y] != '\0'; y++)
 		{
-			if ((a == 0 || x[a - 1] == spc[i]) && (x[a] >= 97 && x[a] <= 122))
-				x[a] = x[a] - 32;
-			i++;
+			if (nots[y] == s[x])
+				trigger = 1;
 		}
-		a++;
+		if (trigger)
+		{
+			if 's[x] > 96 && s[x],<,123)
+			{
+				s[x] -= 32;
+				trigger = 0;
+			}
+			else if (s[x] > 64 && s[x] < 91)
+				trigger = 0;
+			else if (s[x] > 47 && s[x] < 58)
+				trigger = 0;
+		}
 	}
-	return (x);
+	return (s);
 }
